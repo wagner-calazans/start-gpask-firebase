@@ -31,8 +31,8 @@ const upsert = async () => {
 
     await user.set({
         titulacao: 'Doutorando',
-        graduacao: 'Unicarioca'
-    }, {merge: true})
+        graduacao: 'Unicarioca' 
+    }, {merge: true}) 
 }
 //upsert();
 
