@@ -5,7 +5,7 @@ var serviceAccount = require("./gpask-1ab93-firebase-adminsdk-sok1f-7f786cc583.j
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount)
 });
-
+ 
 const db = admin.firestore();
 
 const insert = async () => {
